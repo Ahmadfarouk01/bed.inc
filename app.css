@@ -8,6 +8,7 @@ li{
     list-style: none;
 }
 
+
 .nav__bar{ 
  background-color: transparent;
     padding: 10px;
@@ -123,4 +124,71 @@ nav{
     background-color: rgba(0, 0, 128, 0.696);
     color: rgb(113, 110, 110);
     cursor: pointer;
+}
+
+.about-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about__us{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_us__heading{
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(18, 16, 16);
+    margin-left: 60px;
+}
+
+.about_us__desc{
+    width: 100%;
+    max-width: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(18, 16, 16);
+    margin-left: 40px;
+}
+
+.about_us__button{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    background-color: rgb(2, 2, 17);
+    margin-top: 10px;
+    transition: all 300ms ease;
+}
+
+.about_us__button:hover{
+    background-color: rgb(12, 1, 1);
+    color: rgb(184, 178, 178);
+    cursor: pointer;
+}
+
+.about__us__logo__img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.heading_design{
+    font-size: 30px;
+    font-weight: 550;
+    font-style: italic;
+    color: rgb(255, 183, 0);
+    margin-bottom: 10px;
 }
