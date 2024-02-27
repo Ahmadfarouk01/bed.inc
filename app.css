@@ -477,3 +477,63 @@ nav{
 .reasons__section{
     display: flex;
 }
+
+/* clients */
+
+.clients__section{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clients__heading1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.clients__heading2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.client{
+    width: 100%;
+    max-width: 50%;
+    background-color: rgb(57, 57, 57);
+    padding: 20px;
+}
+
+.client:last-child{
+    margin-left: 20px;
+}
+
+.clients{
+    display: flex;
+    margin-top: 30px;
+}
+
+.client__review{
+    font-size: 20px;
+    font-style: italic
+}
+
+.client__name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.client__img{
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.client__info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
