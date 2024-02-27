@@ -363,7 +363,7 @@ nav{
     width: 100%;
     max-width: 1200px;  
     margin: 0 auto;
-    background: linear-gradient(rgb(35, 9, 95),rgba(244, 244, 250, 0.74));
+    background-color: #2b258f;
 }
 
 .highlight_section{
