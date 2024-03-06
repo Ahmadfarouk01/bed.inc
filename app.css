@@ -38,7 +38,7 @@ a{
 }
 
 .nav__bar{ 
- background-color: transparent;
+  background-color: transparent;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -460,7 +460,9 @@ nav{
 
 .reason__logo{
     width: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .reasons__parts{
@@ -592,10 +594,9 @@ nav{
 .footer__body{
     display: flex;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     padding: 20px;
     margin: 0 auto;
-    justify-content: space-around;
 }
 
 .footer__links1,
@@ -615,33 +616,18 @@ nav{
 }
 .footer__links2 h2{
     color: rgb(229, 218, 218);
+    width: 100%;
 }
-.footer__links1 a{
-    color: rgb(229, 218, 218);
-    font-weight: bold;
-}
-.footer__links2 a{
-    color: rgb(229, 218, 218);
-    font-weight: bold;
-}
-.footer__links1 a:hover{
-    color: rgb(0, 0, 0);
-}
-.footer__links2 a:hover{
-    color: rgb(0, 0, 0);
-}
-.footer__links3 h3{
+
+h3{
     color: rgb(229, 218, 218);
 }
-.footer__links4 h3{
-    color: rgb(229, 218, 218);
-}
+ 
 
 .footer__link{
     padding-bottom: 30px;
     margin-right: 50px;
     margin-left: 20px;
-   
 }
 
 .footer__left{
@@ -663,17 +649,20 @@ nav{
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
+    margin-right: 15px;
     color: white;
 }
 
 @media (max-width: 550px){
     .hamburger__menu{
         display: block;
+        
     }
     .hamburger__menu.active .bar:nth-child(2){
         opacity: 0;
     }
     .hamburger__menu.active .bar:nth-child(1){
+        margin-top: 30px;
         transform: translateY(10px) rotate(45deg);
     }
     .hamburger__menu.active .bar:nth-child(3){
@@ -729,8 +718,11 @@ nav{
     }.reasons__head{
         font-size: 15px;
     }.reason__logo{
-        width: 80px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        
     }.reasons__parts{
         max-width: 150px;
         margin-left: 10px;
