@@ -116,8 +116,8 @@ nav{
     min-height: 90vh;
     /* padding: 10px; */
     background-image:  linear-gradient(
-        rgba(90, 92, 93, 0.577),
-        rgba(70, 70, 70, 0.646)
+        rgba(2, 1, 66, 0.889),
+        rgba(14, 1, 62, 0.866)
       ),url(./assets/wallpaper.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -697,7 +697,6 @@ h3{
 @media (max-width: 550px){
     .hamburger__menu{
         display: block;
-        
     }
     .hamburger__menu.active .bar:nth-child(2){
         opacity: 0;
