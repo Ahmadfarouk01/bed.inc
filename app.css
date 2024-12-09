@@ -116,8 +116,8 @@ nav{
     min-height: 90vh;
     /* padding: 10px; */
     background-image:  linear-gradient(
-        rgba(2, 1, 66, 0.889),
-        rgba(14, 1, 62, 0.866)
+        rgba(72, 52, 20, 0.681),
+        rgba(72, 52, 20, 0.681)
       ),url(./assets/wallpaper.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -152,6 +152,7 @@ nav{
     margin: 0 auto;
     margin-top: 20px;
     animation: fade-up 650ms 700ms backwards;
+    text-align: center;
 }
 
 .header__button{
